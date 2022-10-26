@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+
 /*
 *某手机店每天早上进货，进货时需要记录手机的数量，
 以及每个手机的名称、所包含手机的数量、每个手机的单价，手机结构体定义如下：
@@ -12,6 +11,8 @@ struct phone{
 计算并输出当天进货花费的总金额。
 
 */
+#include <stdio.h>
+#include <string.h>
 { 
   struct phone{ 
   char name[15]; 
